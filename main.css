@@ -1,0 +1,55 @@
+header {
+    border: 1px solid goldenrod;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 15px;
+    justify-content: space-between;
+}
+.disabled,
+.disabled:visited {
+    color: grey;
+}
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent div div {
+    color: red;
+
+}
+
+.parent div~div {
+    color: blue;
+}
+
+.parent div div+h4 {
+    background-color: red;
+
+}
+
+.parent div div+h4+div+h4 {
+    background-color: blue;
+
+}
+
+.grandparent>h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+footer input {
+    height: 25px;
+}
